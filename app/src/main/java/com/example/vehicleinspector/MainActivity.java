@@ -18,7 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Button;
 
 import com.example.vehicleinspector.databinding.ActivityMainBinding;
-import com.example.vehicleinspector.databinding.ContentMainBinding;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -80,11 +80,4 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
-
-
-    public void engine0_Clicked() {
-
-    //    NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-    //    navController.navigate("Gallery");
-    }
 }
